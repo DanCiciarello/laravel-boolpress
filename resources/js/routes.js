@@ -6,5 +6,5 @@ import VueRouter from "vue-router";
 export const routes= [
     {path: "/", component: Home, name: "home"},
     {path: "/contatti", component: Contacts, name: "contacts"},
-    {path: "/posts/idpost", component: PostShow, name: "posts.show"},
+    {path: "/posts/:slug", component: PostShow, name: "posts.show"},
 ]

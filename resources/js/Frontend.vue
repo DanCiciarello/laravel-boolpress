@@ -10,7 +10,7 @@
 
 <script>
 import Navbar from './frontend/components/Navbar.vue';
-// import PostsList from './frontend/components/PostsList.vue';
+
 export default {
     components: { Navbar },
     data() {

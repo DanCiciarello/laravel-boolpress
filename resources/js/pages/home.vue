@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container py-5">
-        <h1 class="pb-5">Home</h1>
+        <h1 class="pb-5">Tutti i posts</h1>
 
         <PostsList></PostsList>
 

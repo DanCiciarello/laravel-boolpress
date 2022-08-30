@@ -12,11 +12,9 @@
             <p class="card-text">
               {{ post.content }}
             </p>
-            <!-- <router-link
-              :to="{ name: 'posts.show', params: { slug: post.slug } }"
-              class="btn btn-primary"
-              >Go somewhere
-            </router-link> -->
+            <router-link :to="{ name: 'posts.show', params: { slug: post.slug } }" class="btn btn-secondary">
+              Read more
+            </router-link>
           </div>
         </div>
       </div>

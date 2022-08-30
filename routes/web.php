@@ -36,3 +36,8 @@ Route::middleware('auth')
         // Create CRUD routes for Post
         Route::resource("posts", "PostController");
     });
+
+// Rotta jolly
+Route::get("{any?}", function () {
+    return view("welcome");
+})->where("any", ".*");
