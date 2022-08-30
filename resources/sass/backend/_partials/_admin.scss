@@ -1,0 +1,141 @@
+// General
+
+.cdRow {
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+.cdTextRight {
+    text-align: right;
+}
+
+.cdActive {
+    background-color: #4e369782;
+}
+
+.cdPadding {
+    padding-left: 10px;
+}
+
+// ---------------------------------------------------------------------------------------------
+
+// Buttons
+
+.btn {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.cdBtnPrimary {
+    background-color: #755CDD;
+    color: #ffffff;
+
+    &:hover {
+        background-color: #ffffff;
+        color: #755CDD;
+        border: 1px solid #755CDD;
+    }
+}
+
+.cdBtnView {
+    background-color: $cyan;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.cdBtnEdit {
+    background-color: $teal;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.cdBtnDelete {
+    background-color: rgb(206, 93, 93);
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.cdNavLink {
+    padding: 15px 15px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #d8d4f6;
+
+    .cdNavIcon {
+        min-width: 30px;
+    }
+}
+
+// ---------------------------------------------------------------------------------------------
+
+// Typography
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.cdTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+// ---------------------------------------------------------------------------------------------
+
+#navbarDropdown {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #d8d4f6;
+}
+
+.cdNavbarAdmin {
+    height: 7vh;
+    background: linear-gradient(135deg, rgba(20,22,39,1) 10%, rgb(32, 16, 71) 100%);
+
+    .navbar-brand {
+        font-family: 'Scheherazade New', serif;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    #navbarSupportedContent {
+        justify-content: flex-end;
+        padding-right: 2rem;
+    }
+
+}
+
+.cdSidebar {
+    height: 93vh!important;
+    background-color: #141627;
+    height: 100%;
+}
+
+.cdMainAdmin{
+    height: 93vh!important;
+    overflow: auto;
+}
+
+.cdLoginBackground {
+    height: 100vh;
+    background-image: url('img/login-bg.jpg');
+    background-size: cover;
+    background-position: top left;
+}
+
+.cdLoginWrapper {
+    width: 70%;
+}
+
+.cdAdminLogged {
+    background: linear-gradient(135deg, rgba(20,22,39,1) 10%, rgb(32, 16, 71) 100%);
+    height: 30px;
+}
