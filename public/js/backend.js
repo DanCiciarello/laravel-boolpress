@@ -23026,9 +23026,9 @@ window.addEventListener("DOMContentLoaded", function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/daniele/Documents/Boolean/Repository/laravel-api/resources/js/backend.js */"./resources/js/backend.js");
-__webpack_require__(/*! /Users/daniele/Documents/Boolean/Repository/laravel-api/resources/sass/backend/backend.scss */"./resources/sass/backend/backend.scss");
-module.exports = __webpack_require__(/*! /Users/daniele/Documents/Boolean/Repository/laravel-api/resources/sass/frontend/frontend.scss */"./resources/sass/frontend/frontend.scss");
+__webpack_require__(/*! /Users/daniele/Documents/Boolean/Repository/laravel-boolpress/resources/js/backend.js */"./resources/js/backend.js");
+__webpack_require__(/*! /Users/daniele/Documents/Boolean/Repository/laravel-boolpress/resources/sass/backend/backend.scss */"./resources/sass/backend/backend.scss");
+module.exports = __webpack_require__(/*! /Users/daniele/Documents/Boolean/Repository/laravel-boolpress/resources/sass/frontend/frontend.scss */"./resources/sass/frontend/frontend.scss");
 
 
 /***/ })
