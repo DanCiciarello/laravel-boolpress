@@ -1,0 +1,16 @@
+// Typography
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.jumbotron {
+    padding: 30vh 0;
+    background-image: url('img/home-bg.jpeg');
+    background-position: bottom center;
+}

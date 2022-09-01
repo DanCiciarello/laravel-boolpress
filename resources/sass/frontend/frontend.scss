@@ -1,4 +1,13 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300%3b00,400%3b00,500%3b00,600%3b00,700%3b00,800%3b01,300%3b01,400%3b01,500%3b01,600%3b01,700%3b01,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100%3b00,200%3b00,300%3b00,400%3b00,500%3b00,600%3b00,700%3b00,800%3b00,900%3b01,100%3b01,200%3b01,300%3b01,400%3b01,500%3b01,600%3b01,700%3b01,800%3b01,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100%3b00,200%3b00,300%3b00,400%3b00,500%3b00,600%3b00,700%3b00,800%3b00,900%3b01,100%3b01,200%3b01,300%3b01,400%3b01,500%3b01,600%3b01,700%3b01,800%3b01,900&display=swap');
+
+// Custom variables
+@import './_partials/variables';
+
 // Bootstrap
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-
+// Partials
+@import './_partials/general';

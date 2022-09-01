@@ -1,7 +1,7 @@
 <template>
   <div>
+    <Jumbotron></Jumbotron>
     <div class="container py-5">
-        <h1 class="pb-5">Tutti i posts</h1>
 
         <PostsList></PostsList>
 
@@ -11,8 +11,9 @@
 
 <script>
 import PostsList from '../frontend/components/PostsList.vue';
+import Jumbotron from '../frontend/components/Jumbotron.vue';
 export default {
-    components: { PostsList }
+    components: { PostsList, Jumbotron }
 }
 </script>
 
